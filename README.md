@@ -30,7 +30,7 @@ Define a public property `$sluggable` with the definitions (see [#Configuration]
 class Post extends Eloquent
 {
 
-	public static $sluggable = array(
+	public $sluggable = array(
 		'build_from' => 'title',
 		'save_to'    => 'slug',
 	);

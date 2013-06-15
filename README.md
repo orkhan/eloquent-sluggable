@@ -83,7 +83,7 @@ return array(
 ```php
 class Person extends Eloquent {
 
-	public static $sluggable = array(
+	public $sluggable = array(
 		'build_from' => 'fullname'
 	);
 
